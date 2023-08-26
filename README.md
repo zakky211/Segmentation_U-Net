@@ -13,17 +13,17 @@ The introduction of Self-Driving Car technology aims to mitigate accidents and c
 Acquiring the Dataset
 The official dataset can be obtained from their website https://www.cityscapes-dataset.com/. Registration and account creation are prerequisites for downloading. After downloading the dataset.
 
-Data Preprocessing
+## Data Preprocessing
 1. Normalization of the Dataset
 2. Application of One Hot Encoding
 3. Dataset Splitting
 
-Construction of the UNet Model
+## Construction of the UNet Model
 "The architecture comprises of an encoding path for contextual information capture and a symmetric decoding path that enables precise localization. Our results demonstrate that this network can be trained end-to-end using a limited number of images and outperforms previous state-of-the-art methods." - Excerpt from the UNet Paper
 
 ![image](https://github.com/zakky211/Segmentation_U-Net/assets/62234134/f0bfa279-e7ca-40c1-8e13-d01d67aef8db)
 
-Model Training
+## Model Training
 The initial steps involve setting up model checkpointing and early stopping. Adam optimization is employed with a learning rate of 0.001. The choice of loss function is Categorical Cross-Entropy, while Accuracy serves as the evaluation metric.
 
 Number of Epochs: 100
