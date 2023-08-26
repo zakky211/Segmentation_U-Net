@@ -3,15 +3,15 @@
 Urban Landscape Image Segmentation
 When I initially came across the field of computer vision, my knowledge was limited to Object Detection and Classification. However, Image Semantic Segmentation adds another layer to this. Image Segmentation involves the division of a digital image into multiple segments, which can also be referred to as regions or objects (collections of pixels). The main purpose of segmentation is to simplify or alter the image representation into something more understandable and analyzable. This technique is often employed to identify objects and define boundaries within an image.
 
-Context
+## Context
 Traffic congestion and a high number of accidents are persistent issues in numerous large cities globally. One of the key contributors to these problems is driver negligence. The World Health Organization (WHO) recognizes the traffic system as one of the most intricate and perilous systems we encounter nearly every day.
 
-Objectives
+## Objectives
 The introduction of Self-Driving Car technology aims to mitigate accidents and congestion resulting from driver negligence.
 
-Cityscapes Dataset
+## Cityscapes Dataset
 Acquiring the Dataset
-The official dataset can be obtained from their website. Registration and account creation are prerequisites for downloading. After downloading the dataset, it can be uploaded to Google Colab for further use.
+The official dataset can be obtained from their website https://www.cityscapes-dataset.com/. Registration and account creation are prerequisites for downloading. After downloading the dataset.
 
 Data Preprocessing
 1. Normalization of the Dataset
