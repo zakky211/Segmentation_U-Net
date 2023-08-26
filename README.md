@@ -34,8 +34,6 @@ After experimenting with three training processes, the best model achieves a tra
 Model Loading
 Previously saved models can be loaded using "keras.models.load_model(model-path)". 
 
-Evaluating Model Predictions
-The process of prediction involves several images:
 ![image](https://github.com/zakky211/Segmentation_U-Net/assets/62234134/80db725f-5758-40bf-acdf-2e9f92fc3918)
 
 
